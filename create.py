@@ -1,4 +1,4 @@
-import requests, time, random, itertools, threading, json
+import      request, time, random, itertools, threading, json
 
 with open('proxies.txt', 'r', encoding='utf-8') as proxyfile:
     proxies = itertools.cycle(proxyfile.readlines())
